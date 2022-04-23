@@ -1,5 +1,7 @@
-let x = 23
-function squareF(n){
-    console.log(n*n)
-}
-squareF(2)
+import ReactDOM from "react-dom";
+import App from './App'
+
+ReactDOM.render(
+    <App />,
+    document.getElementById('root')
+)
